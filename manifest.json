@@ -2,6 +2,7 @@
   "display_name": "Prompt Field Regex",
   "loading_order": 100,
   "js": "index.js",
+  "css": "style.css",
   "author": "you",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
