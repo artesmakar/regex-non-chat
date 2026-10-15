@@ -1,0 +1,26 @@
+#pfr_settings .pfr-buttons { display: flex; flex-wrap: wrap; gap: 5px; margin: 6px 0; }
+#pfr_settings .pfr-buttons .menu_button { margin: 0; }
+#pfr_settings .pfr-hint { display: block; opacity: 0.8; margin-bottom: 6px; }
+
+#pfr_settings .pfr-rule {
+  display: flex; flex-direction: column; gap: 4px;
+  border: 1px solid var(--SmartThemeBorderColor);
+  border-radius: 8px; padding: 6px; margin: 6px 0;
+}
+#pfr_settings .pfr-rule.pfr-disabled { opacity: 0.5; }
+#pfr_settings .pfr-row { display: flex; align-items: center; gap: 4px; }
+#pfr_settings .pfr-row .pfr-name { flex: 1; margin: 0; }
+#pfr_settings .pfr-row .menu_button { margin: 0; padding: 5px 7px; }
+#pfr_settings .pfr-find,
+#pfr_settings .pfr-replace { margin: 0; font-family: monospace; }
+#pfr_settings .pfr-fields { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+#pfr_settings .pfr-invalid { outline: 2px solid #d33; }
+#pfr_settings .pfr-empty { opacity: 0.7; font-style: italic; padding: 4px; }
+
+.pfr-preview { text-align: left; }
+.pfr-preview pre {
+  white-space: pre-wrap; word-break: break-word;
+  background: var(--black30a); padding: 8px; border-radius: 6px;
+  max-height: 300px; overflow-y: auto;
+}
+.pfr-preview .pfr-changed { color: var(--active, #6c6); }
